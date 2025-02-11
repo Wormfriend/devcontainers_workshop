@@ -1,4 +1,3 @@
-from streamlit_extras.stylable_container import stylable_container # type: ignore
 import streamlit as st
 
 
