@@ -20,3 +20,5 @@ column_one, _, column_two = st.columns([2, 5, 2])
 
 with column_two:
     st.page_link("pages/1_Prerequisites.py", label="Next: Prerequisites", use_container_width=True)
+
+LAVALAMPE
