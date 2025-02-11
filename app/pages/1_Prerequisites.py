@@ -31,7 +31,7 @@ with st.expander("Install DevContainer Extension"):
         "Alike the Python extension, the DevContainers extension can also be installed "
         "from the VSCode marketplace accessible through the sidebar within VSCode."
     )
-    st.image("static/vscode_devcontainers_extension.png", caption="VSCode DevContainers Extension")
+    st.image("app/static/vscode_devcontainers_extension.png", caption="VSCode DevContainers Extension")
 
 
 column_one, _, column_two = st.columns([2, 5, 2])
