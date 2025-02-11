@@ -10,18 +10,29 @@ st.set_page_config(
 # page content
 st.header("Introduction")
 
-first_slide =  st.expander("Virtualization")
-second_slide =  st.expander("Containerization")
-third_slide = st.expander("Dev Containers")
 
-with first_slide:
-    st.write("Content")
+# first_slide =  st.expander("Virtualization")
+# second_slide =  st.expander("Containerization")
+# third_slide = st.expander("Dev Containers")
 
-with second_slide:
-    st.write("Content")
+st.subheader("Virtualization")
 
-with third_slide:
-    st.write("Content")
+with st.expander("Terminology"):
+    st.markdown(
+        "- **Host**: Computer used to virtualize\n"
+        "- **Guest**: Virtual machine\n"
+    )
+
+st.subheader("Containerization")
+st.subheader("Dev Containers")
+# with first_slide:
+#     st.write("Content")
+
+# with second_slide:
+#     st.write("Content")
+
+# with third_slide:
+#     st.write("Content")
 
 
 column_one, _, column_two = st.columns([3, 5, 2])
