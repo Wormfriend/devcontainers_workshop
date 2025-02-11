@@ -17,9 +17,6 @@ third_slide = st.expander("Dev Containers")
 with first_slide:
     st.write("Content")
 
-    with st.expander("test"):
-        st.write("test")
-
 with second_slide:
     st.write("Content")
 
