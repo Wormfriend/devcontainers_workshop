@@ -14,7 +14,7 @@ st.set_page_config(
 
 st.header("Introduction DevContainer")
 st.subheader("Escaping Dependency Hell")
-st.image("static/xkcd_python_environment.png", use_container_width=True)
+st.image("https://imgs.xkcd.com/comics/python_environment.png", use_container_width=True)
 
 column_one, _, column_two = st.columns([2, 5, 2])
 
