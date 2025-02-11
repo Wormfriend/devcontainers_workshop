@@ -24,7 +24,7 @@ with st.expander("Setup VS Code"):
         "here. After download and installation I can highly recommend the installation "
         "of the official python extension (linter, debugger) from the marketplace. "
     )
-    st.image("static/vscode_extension.png", caption="VSCode Python Extension")
+    st.image("app/static/vscode_extension.png", caption="VSCode Python Extension")
 
 with st.expander("Install DevContainer Extension"):
     st.markdown(
