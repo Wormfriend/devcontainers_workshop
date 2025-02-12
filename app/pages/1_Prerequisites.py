@@ -22,6 +22,11 @@ with st.expander("Setup Docker Desktop"):
         "download button on top of the page. After downloading follow the "
         "[installation instructions](https://docs.docker.com/desktop/setup/install/mac-install/#install-and-run-docker-desktop-on-mac)."
     )
+    st.markdown(
+        ">Some users might experience issues that docker contains malware and therefore"
+        "will be blocked. This is a known issue. Please follow the instructions given " 
+        "on the [Docker website](https://docs.docker.com/desktop/cert-revoke-solution/)."
+    )
     
 with st.expander("Setup VS Code"):
     st.markdown(
