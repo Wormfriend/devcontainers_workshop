@@ -18,10 +18,21 @@ st.header("Introduction")
 st.subheader("Virtualization")
 
 with st.expander("Terminology"):
-    st.markdown(
-        "- **Host**: Computer used to virtualize\n"
-        "- **Guest**: Virtual machine\n"
-    )
+    st.markdown("""
+    - **Operating Systen (OS)**: Operating Systems
+    - **Kernel**: Core of an OS mediating between applications/users and hardware
+    - **Host**: Computer used to virtualize
+    - **Guest**: Virtual machine
+    """)
+
+with st.expander("Virtualization"):
+    st.markdown("""
+    - **Virtualization** is a process, which allows a computer to share its hardware ressources with seperated environments
+    - **Virtual Machines** are software defined computers, which can have seperate operating systems and computing ressource (CPU Cores, Memory, ...) 
+    - The **hypervisor manages** virtual machines and most importantly their clear seperation on a hardware level
+        - Type 1 Hypervisor: Directly installed on hardware instead of the OS
+        - Type 2 Hypervisor: Installed on OS
+    """)
 
 with st.expander("Hardware Level Virtualization"):
     st.text("CONTENT")
