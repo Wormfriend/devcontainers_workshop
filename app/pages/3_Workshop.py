@@ -9,11 +9,26 @@ st.set_page_config(
 
 st.header("Workshop")
 
+
 with st.expander("Create A Dockerfile"):
-    st.write("YOUR TEXT HERE")
+    st.markdown("""
+    ```dockerfile
+    # DevcontainersWorkshop/Dockerfile
+    FROM python:3.12            # Specify base image
+    ```
+    """)
 
 with st.expander("Create A devcontainer.json"):
     st.write("YOUR TEXT HERE")
+    st.markdown("""
+    Your final file structure should look like the following:
+    ```bash
+    DevcontainersWorkshop
+    ├── Dockerfile
+    ├── .devcontainers
+        ├── devontainer.json
+    ```
+    """)
 
 with st.expander("Add your favourite extensions"):
     st.write("YOUR TEXT HERE")
@@ -25,6 +40,9 @@ with st.expander("Start your devcontainer"):
     st.write("YOUR TEXT HERE")
 
 with st.expander("Clone Git-Repository"):
+    st.write("YOUR TEXT HERE")
+
+with st.expander("Deploy application as Docker-container"):
     st.write("YOUR TEXT HERE")
 
 

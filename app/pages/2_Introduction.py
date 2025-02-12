@@ -23,17 +23,24 @@ with st.expander("Terminology"):
         "- **Guest**: Virtual machine\n"
     )
 
+with st.expander("Hardware Level Virtualization"):
+    st.text("CONTENT")
+
+with st.expander("Software Level Virtualization"):
+    st.text("CONTENT")
+
+with st.expander("OS Level Virtualization"):
+    st.text("CONTENT")
+
 st.subheader("Containerization")
+
 st.subheader("Dev Containers")
-# with first_slide:
-#     st.write("Content")
-
-# with second_slide:
-#     st.write("Content")
-
-# with third_slide:
-#     st.write("Content")
-
+with st.expander("Advantages"):
+    st.markdown("""
+    - Clean capsulation of concerns and environments
+    - Easy to setup
+    - Documentation of installed dependencies and there respective versions
+    """)
 
 column_one, _, column_two = st.columns([3, 5, 2])
 
