@@ -19,8 +19,8 @@ with st.expander("Setup Docker Desktop"):
         "[here](https://docs.docker.com/desktop/setup/install/mac-install/). "
         "Since most people (if not all) in our group have more recent Macs base on ARM "
         "(Apple Silicon) you can use the **Docker Desktop for Mac with Apple silicon** "
-        "[download button](https://desktop.docker.com/mac/main/amd64/Docker.dmg?utm_source=docker&utm_medium=webreferral&utm_campaign=docs-driven-download-mac-amd64) "
-        "on top of the page. After downloading follow the [installation instructions](https://docs.docker.com/desktop/setup/install/mac-install/#install-and-run-docker-desktop-on-mac)."
+        "download button on top of the page. After downloading follow the "
+        "[installation instructions](https://docs.docker.com/desktop/setup/install/mac-install/#install-and-run-docker-desktop-on-mac)."
     )
     
 with st.expander("Setup VS Code"):
