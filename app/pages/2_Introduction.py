@@ -14,12 +14,14 @@ st.subheader("Virtualization")
 with st.expander("Terminology"):
     st.markdown("""
     - **Operating Systen (OS)**: Operating Systems
-    - **Kernel**: Core of an OS mediating between applications/users and hardware
+        - GNU/Linux
+        - Windows
+    - **Kernel**: Core of an OS mediating between applications/users and hardware.
     - **Host**: Computer used to virtualize
     - **Guest**: Virtual machine
     """)
 
-with st.expander("Virtualization"):
+with st.expander("Overview"):
     st.markdown("""
     - **Virtualization** is a process, which allows a computer to share its hardware ressources with seperated environments
     - **Virtual Machines** are software defined computers, which can have seperate operating systems and computing ressource (CPU Cores, Memory, ...) 
@@ -31,18 +33,20 @@ with st.expander("Virtualization"):
         - Type 2 Hypervisor: Installed on OS
     """)
 
-with st.expander("Hardware Level Virtualization"):
-    st.text("CONTENT")
+st.subheader("Containerization")
 
-with st.expander("Software Level Virtualization"):
+with st.expander("Terminology"):
     st.text("CONTENT")
 
 with st.expander("OS Level Virtualization"):
     st.text("CONTENT")
 
-st.subheader("Containerization")
-
 st.subheader("Dev Containers")
+
+with st.expander("Architecture"):
+    st.text("CONTENT")
+    pass
+
 with st.expander("Advantages"):
     st.markdown("""
     - Clean capsulation of concerns and environments
