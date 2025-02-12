@@ -20,10 +20,12 @@ with st.expander("Terminology"):
     """)
 
 with st.expander("Virtualization"):
-    st.image("app/static/hypervisor_types.drawio.svg", caption="Type 1 Hypervisor", use_container_width=True)
     st.markdown("""
     - **Virtualization** is a process, which allows a computer to share its hardware ressources with seperated environments
     - **Virtual Machines** are software defined computers, which can have seperate operating systems and computing ressource (CPU Cores, Memory, ...) 
+    """)
+    st.image("app/static/hypervisor_types.drawio.svg", caption="Type 1 Hypervisor", use_container_width=True)
+    st.markdown("""
     - The **hypervisor manages** virtual machines and most importantly their clear seperation on a hardware level
         - Type 1 Hypervisor: Directly installed on hardware instead of the OS
         - Type 2 Hypervisor: Installed on OS
