@@ -17,5 +17,6 @@ st.link_button("Wikipedia: OS-level Virtualization", "https://en.wikipedia.org/w
 st.link_button("Wikipedia: Kernel", "https://en.wikipedia.org/wiki/Kernel_(operating_system)")
 st.link_button("Techtarget: What is a kernel?", "https://www.techtarget.com/searchdatacenter/definition/kernel")
 st.link_button("AWS: What is virtualization", "https://aws.amazon.com/what-is/virtualization/")
+st.link_button("Digihunch: Overview Virtualization", "https://www.digihunch.com/2020/07/overview-of-virtualization/")
 
 st.page_link("pages/3_Workshop.py", label="Previous: Workshop")
