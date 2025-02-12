@@ -1,7 +1,7 @@
 import streamlit as st
 
 
-PAGE_ICON = "static/devcontainer_logo_transparent.png"
+PAGE_ICON = "app/static/devcontainer_logo_transparent.png"
 
 st.session_state["page_icon"] = PAGE_ICON
 st.session_state["page_title"] = "Group Meeting"

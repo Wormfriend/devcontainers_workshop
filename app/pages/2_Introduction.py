@@ -9,12 +9,6 @@ st.set_page_config(
 
 # page content
 st.header("Introduction")
-
-
-# first_slide =  st.expander("Virtualization")
-# second_slide =  st.expander("Containerization")
-# third_slide = st.expander("Dev Containers")
-
 st.subheader("Virtualization")
 
 with st.expander("Terminology"):
@@ -26,6 +20,7 @@ with st.expander("Terminology"):
     """)
 
 with st.expander("Virtualization"):
+    st.image("app/static/Hypervisor-types.png", use_container_width=True)
     st.markdown("""
     - **Virtualization** is a process, which allows a computer to share its hardware ressources with seperated environments
     - **Virtual Machines** are software defined computers, which can have seperate operating systems and computing ressource (CPU Cores, Memory, ...) 
