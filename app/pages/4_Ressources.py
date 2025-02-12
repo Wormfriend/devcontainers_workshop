@@ -46,7 +46,7 @@ st.link_button(
 st.link_button(
     "Stackoverflow: Difference Emulation and Virtualization:",
     "https://stackoverflow.com/questions/6234711/what-are-the-specific-differences-between-an-emulator-and-a-virtual-machine",
-
+)
 st.link_button(
     "VSCode Devcontainers: Official Docs",
     "https://code.visualstudio.com/docs/devcontainers/containers"
