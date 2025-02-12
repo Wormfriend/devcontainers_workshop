@@ -6,7 +6,6 @@ st.set_page_config(
     page_icon=st.session_state.page_icon,
 )
 
-
 # page content
 st.header("Introduction")
 st.subheader("Virtualization")
@@ -48,7 +47,7 @@ st.subheader("Containerization")
 with st.expander("Terminology"):
     st.text("CONTENT")
 
-with st.expander("OS Level Virtualization"):
+with st.expander("Overview"):
     st.text("CONTENT")
 
 st.subheader("Dev Containers")
