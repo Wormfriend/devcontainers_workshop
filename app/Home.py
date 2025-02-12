@@ -2,13 +2,11 @@ import streamlit as st
 
 
 PAGE_ICON = "app/static/devcontainer_logo_transparent.png"
-
-st.session_state["page_icon"] = PAGE_ICON
-st.session_state["page_title"] = "Group Meeting"
+PAGE_TITLE = "Group Meeting"
 
 st.set_page_config(
-    page_title=f"{st.session_state.page_title} - Home",
-    page_icon=st.session_state.page_icon,
+    page_title=f"{PAGE_TITLE} - Home",
+    page_icon=PAGE_ICON,
     layout="centered"
 )
 st.logo("app/static/sidebar_logo.png", size="large")
