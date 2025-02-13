@@ -51,8 +51,9 @@ st.subheader("Containerization")
 
 with st.expander("Terminology"):
     st.markdown("""
-    **User Space**: All code outside of the kernel
-    **Container**: An additional userspace instance
+    - **User Space**: All code outside of the kernel
+    - **Container**: An additional userspace instance
+    - **Docker**: A product, which combines a set of tools to virtualize containers
     """)
 
 with st.expander("Overview"):
@@ -70,6 +71,9 @@ with st.expander("Overview"):
     st.markdown("""
     - Containerization is usually more ressource efficient - compared to Full virtualization
     """)
+
+with st.expander("Docker"):
+    st.image("app/static/docker_architecture.webp", caption="Docker Architecture", use_container_width=True)
 
 st.subheader("Dev Containers")
 
