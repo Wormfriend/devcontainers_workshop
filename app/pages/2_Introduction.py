@@ -13,7 +13,7 @@ st.logo("app/static/sidebar_logo.png", size="large")
 
 # page content
 st.header("Introduction")
-st.subheader("Virtualization")
+st.subheader("Full Virtualization")
 
 with st.expander("Terminology"):
     st.markdown(
@@ -50,10 +50,22 @@ with st.expander("Overview"):
 st.subheader("Containerization")
 
 with st.expander("Terminology"):
-    st.text("CONTENT")
+    st.markdown("""
+    **User Space**: All code outside of the kernel
+    """)
 
 with st.expander("Overview"):
-    st.text("CONTENT")
+    st.markdown("""
+    - Containerization describes application- or OS-level virtualization
+    """)
+    st.image("app/static/os_level_virtualization.drawio.svg", use_container_width=True, caption="OS-Level Virtualization")
+    st.markdown("""
+    - Multiple instances of guest operating systems (at least the user space part) share a host kernel - in contrary of fully VMs
+    - Historically originated from the [chroot](https://linux.die.net/man/1/chroot) unix system call
+    - Became popular with the broader adaption of [Docker](https://www.docker.com/)
+    - A program (or a bundle which make up an entire OS) are only granted access to a subset of ressources available to the host OS
+    - Containerization is usually more ressource efficient, compared to Full virtualization
+    """)
 
 st.subheader("Dev Containers")
 

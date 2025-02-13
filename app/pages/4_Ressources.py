@@ -49,12 +49,32 @@ st.link_button(
     "https://www.digihunch.com/2020/07/overview-of-virtualization/",
 )
 st.link_button(
-    "Stackoverflow: Difference Emulation and Virtualization:",
+    "Stackoverflow: Difference Emulation and Virtualization",
     "https://stackoverflow.com/questions/6234711/what-are-the-specific-differences-between-an-emulator-and-a-virtual-machine",
 )
 st.link_button(
     "VSCode Devcontainers: Official Docs",
     "https://code.visualstudio.com/docs/devcontainers/containers"
+)
+st.link_button(
+    "The Customize Windows: How OS-Level Virtualization Works",
+    "https://thecustomizewindows.com/2023/03/how-os-level-virtualization-works/"
+)
+st.link_button(
+    "Wikipedia: chroot",
+    "https://en.wikipedia.org/wiki/Chroot"
+)
+st.link_button(
+    "Linux man page: chroot",
+    "https://linux.die.net/man/1/chroot"
+)
+st.link_button(
+    "elprocus: What is an Operating System and Its Components",
+    "https://www.elprocus.com/what-is-an-operating-system-and-its-components/"
+)
+st.link_button(
+    "Flylib: Linux Kernel Structure",
+    "https://flylib.com/books/en/3.475.1.15/1/"
 )
 
 st.page_link("pages/3_Workshop.py", label="Previous: Workshop")
