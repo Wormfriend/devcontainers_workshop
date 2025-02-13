@@ -149,7 +149,7 @@ with st.expander("Edit Your Dockerfile"):
     ```
     """)
 
-with st.expander("Start your devcontainer"):
+with st.expander("Start Your Devcontainer"):
     st.markdown(
         "In the bottom left click on the blue icon again. In the menu select *Reopen in Container*. "
         "This step might take some time since docker is now downloading the python base image from "
@@ -157,7 +157,7 @@ with st.expander("Start your devcontainer"):
     )
     st.image("app/static/vscode_reopen_in_container.png", caption="Start Dev Container")
 
-with st.expander("Create 'Hello Streamlit' application"):
+with st.expander("Create 'Hello Streamlit' Application"):
     st.markdown(
         "Once you are within your Dev Container create a new directory called *app* and within this create file "
         "named *index.py*"
