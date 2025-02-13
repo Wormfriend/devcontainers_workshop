@@ -1,7 +1,0 @@
-[server]
-enableStaticServing = true
-port = 8080
-
-[browser]
-gatherUsageStats = false
-
