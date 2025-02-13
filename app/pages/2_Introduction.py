@@ -36,7 +36,7 @@ with st.expander("Overview"):
     )
     st.image(
         "app/static/hypervisor_types.drawio.svg",
-        caption="Type 1 Hypervisor",
+        caption="Hypervisor Types",
         use_container_width=True,
     )
     st.markdown(
