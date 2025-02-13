@@ -14,14 +14,20 @@ st.logo("app/static/sidebar_logo.png", size="large")
 
 st.header("Workshop")
 
-
-with st.expander("Create A Dockerfile"):
-    st.markdown("""
-    ```dockerfile
-    # DevcontainersWorkshop/Dockerfile
-    FROM python:3.12            # Specify base image
-    ```
-    """)
+with st.expander("Create A Project Directory"):
+    st.write("Start by creating a directory for your project. Start VSCode within.")
+    st.code(
+        """
+        mkdir DevContainerWorkshop
+        code DevContainerWorkshop
+        """, 
+        language="bash"
+    )
+    st.markdown(
+        ">If the ```code``` command does not seem to work for you you might need "
+        "to follow [this](https://code.visualstudio.com/docs/setup/mac#_launch-vs-code-from-the-command-line) "
+        "additional steps."
+    )
 
 with st.expander("Create A devcontainer.json"):
     st.write("YOUR TEXT HERE")
@@ -34,6 +40,15 @@ with st.expander("Create A devcontainer.json"):
         ├── devontainer.json
     ```
     """)
+
+with st.expander("Create A Dockerfile"):
+    st.markdown("""
+    ```dockerfile
+    # DevcontainersWorkshop/Dockerfile
+    FROM python:3.12            # Specify base image
+    ```
+    """)
+
 
 with st.expander("Add your favourite extensions"):
     st.write("YOUR TEXT HERE")

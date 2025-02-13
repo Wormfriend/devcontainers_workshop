@@ -74,13 +74,17 @@ with st.expander("Overview"):
 
 with st.expander("Docker"):
     st.image("app/static/docker_architecture.webp", caption="Docker Architecture", use_container_width=True)
+    st.markdown("""
+    - Docker is a collection of tools for managing images and running containers
+    - The part of Docker, which hosts your containers is called the **Docker Engine**
+    """)
 
 st.subheader("Dev Containers")
 
 with st.expander("Architecture"):
     st.image(
         "app/static/architecture_devcontainers.png",
-        caption="VSCode Architecture",
+        caption="Dev Containers Architecture",
         use_container_width=True,
     )
 
