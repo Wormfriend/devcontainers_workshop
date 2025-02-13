@@ -1,0 +1,112 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/26.0.9 Chrome/128.0.6613.186 Electron/32.2.5 Safari/537.36" version="26.0.9">
+  <diagram name="Page-1" id="6zq0S6Z2XCjo-CLIARUB">
+    <mxGraphModel dx="1800" dy="694" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="hf6dYA-BSJrec8ngoclE-18" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="-10" y="220" width="740" height="310" as="geometry" />
+        </mxCell>
+        <mxCell id="hf6dYA-BSJrec8ngoclE-1" value="&lt;b&gt;Process management&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#CCCCCC;" vertex="1" parent="1">
+          <mxGeometry x="120" y="290" width="110" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="hf6dYA-BSJrec8ngoclE-2" value="&lt;b&gt;Memory management&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#CCCCCC;" vertex="1" parent="1">
+          <mxGeometry x="240" y="290" width="110" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="hf6dYA-BSJrec8ngoclE-3" value="&lt;b&gt;File system&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#CCCCCC;" vertex="1" parent="1">
+          <mxGeometry x="359" y="290" width="110" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="hf6dYA-BSJrec8ngoclE-4" value="&lt;b&gt;Device drivers&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#CCCCCC;" vertex="1" parent="1">
+          <mxGeometry x="480" y="290" width="110" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="hf6dYA-BSJrec8ngoclE-5" value="&lt;b&gt;Network&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#CCCCCC;" vertex="1" parent="1">
+          <mxGeometry x="600" y="290" width="110" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="hf6dYA-BSJrec8ngoclE-6" value="&lt;b&gt;Scheduler, architecture&amp;nbsp;&lt;/b&gt;&lt;div&gt;&lt;b&gt;specific&amp;nbsp;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;code&lt;/b&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#CCCCCC;" vertex="1" parent="1">
+          <mxGeometry x="120" y="380" width="110" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="hf6dYA-BSJrec8ngoclE-7" value="&lt;b&gt;Memory&amp;nbsp;&lt;/b&gt;&lt;div&gt;&lt;b&gt;manager&lt;/b&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#CCCCCC;" vertex="1" parent="1">
+          <mxGeometry x="240" y="380" width="110" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="hf6dYA-BSJrec8ngoclE-8" value="&lt;b&gt;File system&amp;nbsp;&lt;/b&gt;&lt;div&gt;&lt;b&gt;types&lt;/b&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#CCCCCC;" vertex="1" parent="1">
+          <mxGeometry x="359" y="380" width="110" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="hf6dYA-BSJrec8ngoclE-9" value="&lt;b&gt;Block devices&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#CCCCCC;" vertex="1" parent="1">
+          <mxGeometry x="359" y="450" width="110" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="hf6dYA-BSJrec8ngoclE-10" value="&lt;b&gt;Character&amp;nbsp;&lt;/b&gt;&lt;div&gt;&lt;b&gt;devices&lt;/b&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#CCCCCC;" vertex="1" parent="1">
+          <mxGeometry x="480" y="380" width="110" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="hf6dYA-BSJrec8ngoclE-11" value="&lt;b&gt;Network&amp;nbsp;&lt;/b&gt;&lt;div&gt;&lt;b&gt;Protocols&lt;/b&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#CCCCCC;" vertex="1" parent="1">
+          <mxGeometry x="600" y="380" width="110" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="hf6dYA-BSJrec8ngoclE-12" value="&lt;b&gt;Network&amp;nbsp;&lt;/b&gt;&lt;div&gt;&lt;b&gt;drivers&lt;/b&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#CCCCCC;" vertex="1" parent="1">
+          <mxGeometry x="600" y="450" width="110" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="hf6dYA-BSJrec8ngoclE-13" value="&lt;b&gt;Multitasking&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="145" y="350" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="hf6dYA-BSJrec8ngoclE-14" value="&lt;b&gt;Virtual&lt;/b&gt;&lt;div&gt;&lt;b&gt;Memory&lt;/b&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="265" y="350" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="hf6dYA-BSJrec8ngoclE-15" value="&lt;b&gt;Files,&lt;/b&gt;&lt;div&gt;&lt;b&gt;directories&lt;/b&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="384" y="350" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="hf6dYA-BSJrec8ngoclE-16" value="&lt;b&gt;Device access, terminals&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="490" y="350" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="hf6dYA-BSJrec8ngoclE-17" value="&lt;b&gt;Network&lt;/b&gt;&lt;div&gt;&lt;b&gt;Functionality&lt;/b&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="610" y="350" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="hf6dYA-BSJrec8ngoclE-19" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;labelPosition=left;verticalLabelPosition=middle;align=right;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="90" y="290" width="20" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="hf6dYA-BSJrec8ngoclE-20" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;labelPosition=left;verticalLabelPosition=middle;align=right;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="90" y="357.5" width="20" height="15" as="geometry" />
+        </mxCell>
+        <mxCell id="hf6dYA-BSJrec8ngoclE-21" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;labelPosition=left;verticalLabelPosition=middle;align=right;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="90" y="380" width="20" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="hf6dYA-BSJrec8ngoclE-22" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;labelPosition=left;verticalLabelPosition=middle;align=right;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="90" y="450" width="20" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="hf6dYA-BSJrec8ngoclE-23" value="&lt;b&gt;Components&lt;/b&gt;" style="text;html=1;align=right;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="5" y="305" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="hf6dYA-BSJrec8ngoclE-24" value="&lt;b&gt;Functionality&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="10" y="350" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="hf6dYA-BSJrec8ngoclE-25" value="&lt;b&gt;Software Support&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="15" y="395" width="70" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="hf6dYA-BSJrec8ngoclE-26" value="&lt;b&gt;Hardware Support&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="15" y="465" width="70" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="hf6dYA-BSJrec8ngoclE-27" value="&lt;font style=&quot;font-size: 30px;&quot;&gt;&lt;b&gt;Linux Kernel&lt;/b&gt;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="262.5" y="240" width="195" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="hf6dYA-BSJrec8ngoclE-28" value="&lt;font style=&quot;font-size: 30px;&quot;&gt;&lt;b&gt;User Space&lt;/b&gt;&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="-10" y="135.84" width="740" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="hf6dYA-BSJrec8ngoclE-30" value="" style="shape=singleArrow;direction=south;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="347.5" y="190" width="25" height="41.67" as="geometry" />
+        </mxCell>
+        <mxCell id="hf6dYA-BSJrec8ngoclE-31" value="&lt;b&gt;System Calls&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="364" y="192.84" width="82.5" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="hf6dYA-BSJrec8ngoclE-32" value="&lt;font style=&quot;font-size: 30px;&quot;&gt;&lt;b&gt;Hardware&lt;/b&gt;&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" vertex="1" parent="1">
+          <mxGeometry x="-10" y="550" width="740" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="hf6dYA-BSJrec8ngoclE-37" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="338" y="519" width="45" height="41.66999999999996" as="geometry" />
+        </mxCell>
+        <mxCell id="hf6dYA-BSJrec8ngoclE-35" value="" style="shape=singleArrow;direction=south;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="hf6dYA-BSJrec8ngoclE-37">
+          <mxGeometry width="25" height="41.67" as="geometry" />
+        </mxCell>
+        <mxCell id="hf6dYA-BSJrec8ngoclE-36" value="" style="shape=singleArrow;direction=north;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="hf6dYA-BSJrec8ngoclE-37">
+          <mxGeometry x="20" width="25" height="41.67" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
