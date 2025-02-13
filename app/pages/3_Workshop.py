@@ -96,26 +96,111 @@ with st.expander("Create A devcontainer.json"):
     ```
     """)
 
-with st.expander("Edit Your Dockerfile"):
+with st.expander("Add Python Extension To Dev Container"):
+    st.markdown("Search for the official *Python* Extension in the Extension Menu on the left of your VSCode Window. ")
+    st.text("Right click on the extension and select *Add to devcontainer.json*.")
+    st.image("app/static/vscode_extension_python.png", caption="Add Python Extension to devcontainer.json")
+    st.markdown("Your *devcontainer.json* should now be edited and contain the section below:")
+    st.code("""
+    {
+        // ... 
+        "customizations": {
+            "vscode": {
+                "extensions": [
+                    "ms-python.python"
+                ]
+            }
+        }
+        // ...
+    }
+    """, language="json")
+
+with st.expander("Create requirements.txt"):
+    st.markdown("Now create a *requirements.txt file. This file will contain your python dependencies.")
+    st.code("touch requirements.txt", language="bash")
+    st.text("Copy the text below into the created file.")
+    st.code("""
+    # DevContainerWorkshop/requirements.txt
+    streamlit==1.42.0
+    """, language="bash")
     st.markdown("""
-    ```dockerfile
-    # DevcontainersWorkshop/Dockerfile
-    FROM python:3.12            # Specify base image
+    Afterwards your project structure should look like the following.
+    ```bash
+    DevcontainersWorkshop
+    ├── Dockerfile
+    ├── .devcontainer
+        ├── devontainer.json
+    ├── requirements.txt
     ```
     """)
 
+with st.expander("Edit Your Dockerfile"):
+    st.markdown("Now it is time to finally make your *Dockerfile* good to go. Copy the below into your Dockerfile.")
+    st.markdown("""
+    ```dockerfile
+    # DevcontainersWorkshop/Dockerfile
+    # Specify base image
+    FROM python:3.12                
 
-with st.expander("Add your favourite extensions"):
-    st.write("YOUR TEXT HERE")
-
-with st.expander("Create requirements.txt"):
-    st.write("YOUR TEXT HERE")
+    # Copies the hosts ./requirements.txt into your guests /tmp 
+    COPY requirements.txt /tmp
+    # Install the dependencies using pip
+    RUN python -m pip install -r /tmp/requirements.txt
+    ```
+    """)
 
 with st.expander("Start your devcontainer"):
-    st.write("YOUR TEXT HERE")
+    st.markdown(
+        "In the bottom left click on the blue icon again. In the menu select *Reopen in Container*. "
+        "This step might take some time since docker is now downloading the python base image from "
+        "Dockerhub and afterwards installs streamlit from the Python Package Index ([PyPI](https://pypi.org))."
+    )
+    st.image("app/static/vscode_reopen_in_container.png", caption="Start Dev Container")
 
-with st.expander("Clone Git-Repository"):
-    st.write("YOUR TEXT HERE")
+with st.expander("Create 'Hello Streamlit' application"):
+    st.markdown(
+        "Once you are within your Dev Container create a new directory called *app* and within this create file "
+        "named *index.py*"
+    )
+    st.code("""
+    mkdir app
+    touch app/index.py
+    """,
+    language="bash")
+    st.markdown("Add the following lines of code to your *index.py* file.")
+    st.code("""
+    # app/index.py
+    import streamlit as st
+
+
+    st.header("Hello From Streamlit")
+    st.balloons()
+    """, language="python")
+    st.markdown(
+        ">In case you get an import error select the correct python version in the bottom right of VSCode." 
+        "For this workshop it is Python 3.12."
+    )
+
+    st.markdown("""
+    Your final file tree is supposed to look like this:
+    ```bash
+    DevcontainersWorkshop
+    ├── Dockerfile
+    ├── .devcontainer
+        ├── devontainer.json
+    ├── requirements.txt
+    ├── app
+        ├── index.py
+    ```
+    """)
+    st.text("You can now execute your application.")
+    st.code("""
+    cd app/
+    streamlit run app.py
+    """, language="bash")
+    st.text(
+        "Since DevContainers takes care of all port-forwarding for you, you can now vist your application under the URL shown in your terminal."
+    )
 
 with st.expander("Deploy application as Docker-container"):
     st.write("YOUR TEXT HERE")
