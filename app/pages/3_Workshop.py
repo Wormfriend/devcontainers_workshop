@@ -202,10 +202,6 @@ with st.expander("Create 'Hello Streamlit' application"):
         "Since DevContainers takes care of all port-forwarding for you, you can now vist your application under the URL shown in your terminal."
     )
 
-with st.expander("Deploy application as Docker-container"):
-    st.write("YOUR TEXT HERE")
-
-
 # footer
 column_one, _, column_two = st.columns([3, 4, 2])
 
