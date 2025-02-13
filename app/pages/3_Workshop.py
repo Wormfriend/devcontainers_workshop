@@ -177,7 +177,7 @@ with st.expander("Create 'Hello Streamlit' application"):
     st.balloons()
     """, language="python")
     st.markdown(
-        ">In case you get an import error select the correct python version in the bottom right of VSCode." 
+        ">In case you get an import error select the correct python version in the bottom right of VSCode. " 
         "For this workshop it is Python 3.12."
     )
 
