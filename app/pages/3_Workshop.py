@@ -40,14 +40,58 @@ with st.expander("Create A Project Directory"):
 with st.expander("Create A devcontainer.json"):
     st.markdown(
         "The easiest way for creating a devcontainer-configuration is using the "
-        "DevContainers you have installed as part of the [Prerequisites](/Prerequisites). "
+        "DevContainers you have installed as part of the [Prerequisites](/Prerequisites)."
+    )
+    st.markdown("**Step 1 - Open Dev Container Extension**")
+    st.text("Click on the blue icon in the bottom left corner of VSCode.")
+    st.image("app/static/vscode_open_devcontainer_extension.png", caption="Opening Dev Container Extension")
+    st.markdown("**Step 2 - Create devcontainer.json from Dockerfile**")
+    st.markdown(
+        "In the menu opening in the top middle click *Add Dev Container Configuration Files...*. "
+        "Then select *From 'Dockerfile'*. Afterwards do not select any additional features - just click *ok*. "
+        "This should then create a ```.devcontainer/``` directory containing a single ```devcontainer.json``` file."
+    )
+    st.image("app/static/vscode_add_config.png", caption="Select Add Dev Container Configuration Files...")
+    st.image("app/static/vscode_from_dockerfile.png", caption="Select From 'Dockerfile'")
+    st.image("app/static/vscode_select_features.png", caption="Click OK")
+    st.markdown("Your *devcontainer.json* is supposed to look like this:")
+    st.code("""
+    // .devcontainer/devcontainer.json
+    // For format details, see https://aka.ms/devcontainer.json. For config options, see the
+    // README at: https://github.com/devcontainers/templates/tree/main/src/docker-existing-dockerfile
+    {
+        "name": "Existing Dockerfile",
+        "build": {
+            // Sets the run context to one level up instead of the .devcontainer folder.
+            "context": "..",
+            // Update the 'dockerFile' property if you aren't using the standard 'Dockerfile' filename.
+            "dockerfile": "../Dockerfile"
+        }
+
+        // Features to add to the dev container. More info: https://containers.dev/features.
+        // "features": {},
+
+        // Use 'forwardPorts' to make a list of ports inside the container available locally.
+        // "forwardPorts": [],
+
+        // Uncomment the next line to run commands after the container is created.
+        // "postCreateCommand": "cat /etc/os-release",
+
+        // Configure tool-specific properties.
+        // "customizations": {},
+
+        // Uncomment to connect as an existing user other than the container default. More info: https://aka.ms/dev-containers-non-root.
+        // "remoteUser": "devcontainer"
+    }
+    """, 
+    language="json"
     )
     st.markdown("""
-    Your final file structure should look like the following:
+    Your file tree should now look like the following.
     ```bash
     DevcontainersWorkshop
     ├── Dockerfile
-    ├── .devcontainers
+    ├── .devcontainer
         ├── devontainer.json
     ```
     """)
