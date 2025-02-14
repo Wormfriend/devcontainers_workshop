@@ -196,7 +196,7 @@ with st.expander("Create 'Hello Streamlit' Application"):
     st.text("You can now execute your application.")
     st.code("""
     cd app/
-    streamlit run app.py
+    streamlit run index.py
     """, language="bash")
     st.text(
         "Since DevContainers takes care of all port-forwarding for you, you can now vist your application under the URL shown in your terminal."
